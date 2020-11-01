@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]" parallel="none">
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="com.automation.test.PopularCarTest">
+        <methods>
+          <include name="flushReports"/>
+        </methods>
+      </class> <!-- com.automation.test.PopularCarTest -->
+      <class name="com.automation.test.BikeTest">
+        <methods>
+          <include name="flushReports"/>
+        </methods>
+      </class> <!-- com.automation.test.BikeTest -->
+      <class name="com.automation.test.LoginTest">
+        <methods>
+          <include name="testOne"/>
+        </methods>
+      </class> <!-- com.automation.test.LoginTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

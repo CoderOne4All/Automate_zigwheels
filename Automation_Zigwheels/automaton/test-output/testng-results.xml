@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="67201" started-at="2020-11-01T12:24:07 IST" finished-at="2020-11-01T12:25:14 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="67201" started-at="2020-11-01T12:24:07 IST" finished-at="2020-11-01T12:25:14 IST">
+      <class name="com.automation.test.LoginTest">
+        <test-method status="PASS" signature="testOne(java.lang.String)[pri:0, instance:com.automation.test.LoginTest@33b37288]" name="testOne" duration-ms="24896" started-at="2020-11-01T12:24:33 IST" data-provider="emailId" finished-at="2020-11-01T12:24:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testerunited@123.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOne -->
+        <test-method status="PASS" signature="flushReports()[pri:0, instance:com.automation.test.LoginTest@33b37288]" name="flushReports" is-config="true" duration-ms="227" started-at="2020-11-01T12:24:58 IST" finished-at="2020-11-01T12:24:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+      </class> <!-- com.automation.test.LoginTest -->
+      <class name="com.automation.test.BikeTest">
+        <test-method status="FAIL" signature="testOne()[pri:0, instance:com.automation.test.BikeTest@77a57272]" name="testOne" duration-ms="15956" started-at="2020-11-01T12:24:58 IST" finished-at="2020-11-01T12:25:14 IST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate element with text: Honda
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-B88TDQB', ip: '192.168.29.32', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate element with text: Honda
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-B88TDQB', ip: '192.168.29.32', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+at com.pageclasses.LandingPage.clickOnNewBike(LandingPage.java:52)
+at com.automation.test.BikeTest.testOne(BikeTest.java:22)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOne -->
+        <test-method status="PASS" signature="flushReports()[pri:0, instance:com.automation.test.BikeTest@77a57272]" name="flushReports" is-config="true" duration-ms="242" started-at="2020-11-01T12:25:14 IST" finished-at="2020-11-01T12:25:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+      </class> <!-- com.automation.test.BikeTest -->
+      <class name="com.automation.test.PopularCarTest">
+        <test-method status="PASS" signature="testOne()[pri:0, instance:com.automation.test.PopularCarTest@588df31b]" name="testOne" duration-ms="24979" started-at="2020-11-01T12:24:07 IST" finished-at="2020-11-01T12:24:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOne -->
+        <test-method status="PASS" signature="flushReports()[pri:0, instance:com.automation.test.PopularCarTest@588df31b]" name="flushReports" is-config="true" duration-ms="781" started-at="2020-11-01T12:24:32 IST" finished-at="2020-11-01T12:24:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+      </class> <!-- com.automation.test.PopularCarTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
